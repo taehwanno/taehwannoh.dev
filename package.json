@@ -1,0 +1,17 @@
+{
+  "name": "taehwannoh.dev",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Personal page for Taehwan Noh",
+  "author": "Taehwan Noh <taehwanno.dev@gmail.com>",
+  "license": "MIT",
+  "repository": "https://github.com/taehwanno/taehwannoh.dev",
+  "bugs": "https://github.com/taehwanno/taehwannoh.dev/issues",
+  "homepage": "https://github.com/taehwanno/taehwannoh.dev#readme",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}

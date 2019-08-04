@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://unpkg.com/modern-normalize@0.5.0/modern-normalize.css">
+  <title>Taehwan Noh</title>
+</head>
+<body style="background-color: #f0f0f0;">
+  <article style="display: flex; justify-content: center; align-items: center; height: 100vh">
+    <section style="position: relative;">
+      <div style="width: 460px; height: 460px; background-image: url(https://github.com/taehwanno.png); background-repeat: no-repeat; box-shadow: 0 0 8px 8px #f0f0f0 inset;"></div>
+      <div style="display: flex; position: absolute; top: 16px; left: 16px;">
+        <a href="https://github.com/taehwanno" target="_blank" rel="noopener">
+          <img style="width: 32px; height: 32px; margin-right: 8px;" src="https://user-images.githubusercontent.com/7760903/53615236-5d183b80-3c20-11e9-8665-40f837e91ccf.png" alt="GitHub">
+        </a>
+        <a href="https://medium.com/@taehwanno.dev" target="_blank" rel="noopener">
+          <img style="width: 32px; height: 32px; margin-right: 8px;" src="https://user-images.githubusercontent.com/7760903/53615395-052e0480-3c21-11e9-8b3b-29e064acc35b.png" alt="Medium">
+        </a>
+        <a href="https://www.linkedin.com/in/taehwannoh" target="_blank" rel="noopener">
+          <img style="width: 37px; height: 32px;" src="https://user-images.githubusercontent.com/7760903/53615700-89cd5280-3c22-11e9-9657-0b238c9ed3ed.png" alt="Linkedin">
+        </a>
+      </div>
+    </section>
+  </article>
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', function () {
+        navigator.serviceWorker.register('/sw.js');
+      });
+    }
+  </script>
+</body>
+</html>
