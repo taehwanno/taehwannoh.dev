@@ -9,9 +9,11 @@
   "bugs": "https://github.com/taehwanno/taehwannoh.dev/issues",
   "homepage": "https://github.com/taehwanno/taehwannoh.dev#readme",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "deploy": "firebase deploy"
   },
   "devDependencies": {
+    "firebase-tools": "^7.2.2",
     "live-server": "^1.2.1"
   }
 }
